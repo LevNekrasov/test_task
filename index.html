@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Growtask</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./slider/itc-slider.css">
+  <script src="./slider/itc-slider.js" defer></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+</head>
+<body id="up">
+  <header class="header">
+		<div class="wrapper">
+			<div class="header__wrapper">
+				<a href="#up" class="header__logo">
+					<img src="./img/svg/logo.svg" alt="Growtask" class="header__logo-svg">
+					<h4  class="header__logo-up">Наверх</h4>
+				</a>
+				<nav class="header__nav">
+					<ul class="header__list">
+						<li class="header__item">
+							<a href="#textImg" class="header__link">Текст и картинки</a>
+						</li>
+						<li class="header__item">
+							<a href="#slider" class="header__link">Пример слайдера</a>
+						</li>
+						<li class="header__item">
+							<a href="#buttonImg" class="header__link">Кнопки и картинки</a>
+						</li>
+						<li class="header__item">
+							<a href="#FAQ" class="header__link">Вопрос — ответ</a>
+						</li>
+						<li class="header__item">
+							<a href="#form" class=" header__link-form">К форме</a>
+						</li>
+					</ul>
+				</nav>
+				<input id="toggle" type="checkbox"></input>
+
+				<label for="toggle" class="hamburger"></label>
+
+				<div class="nav">
+					<div class="nav-wrapper">
+						<nav>
+							<div class="header__menu">
+								<p class="menu__title">Меню</p>
+								<!-- <button class="button__menu-exit"></button> -->
+							</div>
+							<div class="header__menu-list">
+								<a href="#textImg" class="header__link">Текст и картинки</a>
+								<a href="#slider" class="header__link">Пример слайдера</a>
+								<a href="#buttonImg" class="header__link">Кнопки и картинки</a>
+								<a href="#FAQ" class="header__link">Вопрос — ответ</a>
+								<a href="#form" class="header__link header__link-form">К форме</a>
+							</div>
+
+							<div class="networks__menu">
+								<a href="https://vk.com/growtask" class="button-vk">
+									<button class="footer__button menu__networks-button">
+										<img src="./img/svg/footerVk.svg" alt="vk" class="footer__button-vk">
+									</button>
+								</a>
+								<a href="https://t.me/growtask">
+									<button class="footer__button menu__networks-button">
+										<img src="./img/svg/footerTelegram.svg" alt="telegram" class="footer__button-telegram">
+									</button>
+								</a>
+							</div>
+							
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main  class="main">
+		<div class="wrapper">
+			<div class="Firstscreen">
+				<div class="banner__firscreen">
+					<div class="banner__text">
+						<h1 class="banner__text-title">
+							<p class="banner__title-black">Покажи нам чудеса</p>
+							<p class="baner__title-green">своей вёрстки</p>
+						</h1>
+						<p class="banner__text-description">Это текстовое задание, которое нужно просто и грамотно сверстать. Мы уверены, что у тебя всё получится.</p>
+					</div>
+					<div class="banner__block-to-form">
+						<h2 class="banner__block-to-form-text">
+							<p class="banner__block-to-form-text-white">Покажи скролл </p>
+							<p class="banner__block-to-form-text-green"> до формы:</p> 
+						</h2>
+						<button class="banner__button">
+							<a href="#!" class="banner__block-to-form-link">К форме</a>
+						</button>
+					</div>
+				</div>
+				<div class="images__firscreen">
+					<div class="images__lines">
+						<div class="images__line-left">
+							<img src="./img/svg/imagesFirscreen1.svg" alt="" class="images__item">
+							<img src="./img/svg/imagesFirscreen2.svg" alt="" class="images__item">
+						</div>
+						<div class="images__line-right">
+							<img src="./img/svg/imagesFirscreen3.svg" alt="" class="images__item">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="textImg" class="about__us">
+			<div class="wrapper">
+				<div class="wrapper__about-us">
+					<div class="about__us-info">
+						<div class="about__us-info-text">
+							<h2 class="about__us-info-title">Про вакансию</h2>
+							<h3 class="about__us-info-description">Мы ищем аккуратного верстальщика, который хочет учиться и развиваться. С этим мы, конечно же, поможем.<br><br>Напомним про условия:</h3>
+						</div>
+						<div class="about__us-cards">
+							<div class="about__us-card">
+								<p class="about__us-card-number">20 000</p>
+								<p class="about__us-card-text">Твой оклад на время стажировки (Возможны премии)</p>
+							</div>
+							<div class="about__us-card">
+								<p class="about__us-card-number">5/2</p>
+								<p class="about__us-card-text">Рабочий график</p>
+							</div>
+							<div class="about__us-card">
+								<p class="about__us-card-number">8 ч</p>
+								<p class="about__us-card-text">Рабочий день</p>
+							</div>
+						</div>
+					</div>
+					<div class="about__us-photo">
+						<img src="./img/svg/aboutUs1.svg" alt="" class="about__us-img">
+						<img src="./img/svg/aboutUs2.svg" alt="" class="about__us-img">
+						<img src="./img/svg/aboutUs3.svg" alt="" class="about__us-img">
+					</div>
+					<div class="itc-slider about__us-slider" data-slider="itc-slider">
+						<div class="itc-slider-wrapper">
+							<div class="itc-slider-items">
+								<div class="itc-slider-item">
+									<img src="./img/svg/aboutUs1.svg" alt="" class="about__us-img">
+								</div>
+								<div class="itc-slider-item">
+									<img src="./img/svg/aboutUs2.svg" alt="" class="about__us-img">
+								</div>
+								<div class="itc-slider-item">
+									<img src="./img/svg/aboutUs3.svg" alt="" class="about__us-img">
+								</div>
+							</div>
+						</div>
+						
+						
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="slider" class="slider">
+			<div class="wrapper">
+				<div class="slider__title">
+					<h2 class="slider__title-text">Сверстай слайдер</h2>
+				</div>
+				<div class="itc-slider" data-slider="itc-slider">
+					<div class="itc-slider-wrapper">
+						<div class="itc-slider-items">
+							<a href="./img/svg/sliderImg1.svg" data-fancybox="gallery" class="itc-slider-item white">
+								<img src="./img/svg/sliderImg1.svg" alt="Северная корона" class="slider__img">
+								<div class="slider__card-title">Северная корона</div>
+							</a>
+							<a href="./img/svg/sliderImg2.svg" data-fancybox="gallery" class="itc-slider-item white">
+								<img src="./img/svg/sliderImg2.svg" alt="Moscow barbering school" class="slider__img">
+								<div class="slider__card-title">Moscow barbering school</div>
+							</a>
+							<a href="./img/svg/sliderImg3.svg" data-fancybox="gallery" class="itc-slider-item white">
+								<img src="./img/svg/sliderImg3.svg" alt="Rh store" class="slider__img">
+								<div class="slider__card-title">Rh store</div>
+							</a>
+							<a href="./img/svg/sliderImg4.svg" data-fancybox="gallery" class="itc-slider-item white">
+								<img src="./img/svg/sliderImg4.svg" alt="Rh store" class="slider__img">
+								<div class="slider__card-title">Rh store</div>
+							</a>
+							<a href="./img/svg/sliderImg1.svg" data-fancybox="gallery" class="itc-slider-item white">
+								<img src="./img/svg/sliderImg1.svg" alt="Rh store" class="slider__img">
+								<div class="slider__card-title">Rh store</div>
+							</a>
+						</div>
+					</div>
+						<!-- Кнопки для перехода к предыдущему и следующему слайду -->
+						<button class="itc-slider-btn itc-slider-btn-prev"></button>
+						<button class="itc-slider-btn itc-slider-btn-next"></button>
+					</div>
+			</div>
+		</div>
+		<div id="buttonImg" class="block__presentation">
+			<div class="wrapper">
+				<div class="presentation">
+					<div class="presentation__photo">
+						<img id="myImg" src="./img/svg/presentationImg1.svg" alt="" class="presentation__img">
+					</div>
+					<div class="presentation__button">
+						<button onclick="document.getElementById('myImg').src='./img/svg/presentationImg1.svg'" class="presentation__button-link">
+							<img src="./img/svg/presentationImgMini1.svg" alt="" class="presentation__button-img">
+							<p class="presentation__button-text">Картинка 1</p>
+						</button>
+						<button onclick="document.getElementById('myImg').src='./img/svg/presentationImg2.svg'" class="presentation__button-link">
+							<img src="./img/svg/presentationImgMini2.svg" alt="" class="presentation__button-img">
+							<p class="presentation__button-text">Картинка 2</p>
+						</button>
+						<button onclick="document.getElementById('myImg').src='./img/svg/presentationImg3.svg'" class="presentation__button-link">
+							<img src="./img/svg/presentationImgMini3.svg" alt="" class="presentation__button-img">
+							<p class="presentation__button-text">Картинка 3</p>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="FAQ" class="block__support">
+			<div class="wrapper">
+				<div class="support">
+					<div class="support__title">Ответы на вопросы</div>
+					<ul class="support__faq">
+						<li class="support__faq-link">
+							<div class="support__faq-text-block">
+								<p class="support__faq-text">У вас много проектов?</p>
+								<button class="support__faq-button">
+								<img src="./img/svg/supportButton.svg" alt="крестик" class="support__button-svg">
+							</button>
+							</div>
+							<p class="support__faq-hidden-text">Достаточно, чтобы работать и получать удовольствие</p>
+						</li>
+						<li class="support__faq-link">
+							<div class="support__faq-text-block">
+								<p class="support__faq-text">Есть ли карьерный рост?</p>
+								<button class="support__faq-button">
+								<img src="./img/svg/supportButton.svg" alt="крестик" class="support__button-svg">
+							</button>
+							</div>
+							<p class="support__faq-hidden-text">Карьерный рост есть, но он зависит от тебя. Никто специально тянуть не будет.</p>
+						</li>
+						<li class="support__faq-link">
+							<div class="support__faq-text-block">
+								<p class="support__faq-text">У вас большой штат?</p>
+								<button class="support__faq-button">
+								<img src="./img/svg/supportButton.svg" alt="крестик" class="support__button-svg">
+							</button>
+							</div>
+							<p class="support__faq-hidden-text">Штат небольшой</p>
+						</li>
+						<li class="support__faq-link">
+							<div class="support__faq-text-block">
+								<p class="support__faq-text">Какие цели у вашей студии?</p>
+								<button class="support__faq-button">
+								<img src="./img/svg/supportButton.svg" alt="крестик" class="support__button-svg">
+							</button>
+							</div>
+							<p class="support__faq-hidden-text">Развивать свои продукты в среднем ценовом сегменте. Занять не занятую нишу сайтов по адекватной цене.</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer id="form" class="footer">
+		<div class="wrapper wrapper__footer">
+			<div class="block__footer">
+				<div class="footer__info">
+					<div class="footer__info-text">
+						<h2 class="footer__info-title">Форма ОС</h2>
+						<p class="footer__info-content">Сверстай форму обратной связи. Будет круто, если заявку будут приходить сюда: a@growtask.ru</p>
+					</div>
+					<div class="footer__info-networks">
+						<h4 class="footer__networks-text">Не забудь вставить соц.сети</h4>
+						<div class="footer__networks-icon">
+							<a href="https://vk.com/growtask" class="button-vk">
+								<button class="footer__button">
+									<img src="./img/svg/footerVk.svg" alt="vk" class="footer__button-vk">
+								</button>
+							</a>
+							<a href="https://t.me/growtask">
+								<button class="footer__button">
+									<img src="./img/svg/footerTelegram.svg" alt="telegram" class="footer__button-telegram">
+								</button>
+							</a>
+						</div>
+					</div>
+				</div>
+				<form action="mailto: a@growtask.ru" class="footer__form">
+					<div class="footer__form-line">
+						<input class="footer__form-input" type="text" name="FAQ" placeholder="Напишите вопрос*" required>
+						<input class="footer__form-input" type="text" name="telephone/email" placeholder="Телефон или почта*" pattern="\+[0-9]{1,4}[0-9]{1,10}|(.*)@(.*)\.[a-z]{2,5}" oninvalid="setCustomValidity('Пожалуйста, введите номер телефона или email')" required>
+					</div>
+					<div class="footer__form-line">
+						<input class="footer__form-input" type="text" name="name" placeholder="Твое имя*" required>
+						<input class="footer__form-input" type="text" name="messenger" placeholder="Соц.сеть или мессенджер">
+					</div>
+					<div class="footer__form-line footer__check">
+						<button type="submit" class="footer__form-submit">Отправить заявку</button>
+						<input type="checkbox" id="checkbox" class="footer__checkbox"><label for="checkbox" class="footer__form-consent">Соглавие с политикой</label>
+					</div>
+				</form>
+			</div>
+			<div class="footer__info-networks-mobil">
+				<h4 class="footer__networks-text">Не забудь вставить соц.сети</h4>
+				<div class="footer__networks-icon">
+					<a href="https://vk.com/growtask" class="button-vk">
+						<button class="footer__button">
+							<img src="./img/svg/footerVk.svg" alt="vk" class="footer__button-vk">
+						</button>
+					</a>
+					<a href="https://t.me/growtask">
+						<button class="footer__button">
+							<img src="./img/svg/footerTelegram.svg" alt="telegram" class="footer__button-telegram">
+						</button>
+					</a>
+				</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+	<script src="api.js"></script>
+</body>
+</html>

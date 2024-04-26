@@ -1,0 +1,116 @@
+.itc-slider {
+  position: relative;
+  margin-top: 40px;
+}
+
+.itc-slider-wrapper {
+  overflow: hidden;
+}
+
+.itc-slider-items {
+  display: flex;
+  transition: transform 0.5s ease;
+  will-change: transform;
+}
+
+.itc-slider-transition-none {
+  transition: none;
+}
+
+.itc-slider-item {
+  flex: 0 0 25%;
+  user-select: none;
+  will-change: transform;
+}
+
+/* кнопки влево и вправо */
+.itc-slider-btn {
+  position: absolute;
+  top: -13.3%;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+	height: 48px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+	border: 0;
+	border-radius: 8px;
+	box-shadow: 0px 1px 5px #dfe5e5;
+	margin-right: 11px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.itc-slider-btn:last-child {
+  margin-right: 0;
+}
+
+.itc-slider-btn-prev {
+  right: 55px;
+}
+
+.itc-slider-btn-next {
+  right: 0;
+}
+
+.itc-slider-btn:hover {
+  color: #fff;
+  text-decoration: none;
+  background: #E1FAFA;
+  outline: 0;
+}
+
+.itc-slider-btn:active {
+  background: #DAF2F2;
+}
+
+.itc-slider-btn::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.itc-slider-btn-prev::before {
+  background-image: url(../img/svg/leftButton.svg);
+}
+
+.itc-slider-btn-next::before {
+  background-image: url(../img/svg/rightButton.svg);
+}
+
+/* индикаторы */
+.itc-slider-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+  margin: 0 15%;
+  padding-left: 0;
+  list-style: none;
+}
+
+.itc-slider-indicator {
+  flex: 0 1 auto;
+  box-sizing: content-box;
+  width: 30px;
+  height: 5px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  background-color: rgb(255 255 255 / 50%);
+  background-clip: padding-box;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  cursor: pointer;
+}
+
+.itc-slider-indicator-active {
+  background-color: rgb(255 255 255 / 90%);
+}
